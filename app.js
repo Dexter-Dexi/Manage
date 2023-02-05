@@ -8,25 +8,16 @@ window.onload = () => {
   B.addEventListener("click", () => {
     if (state == false) {
       M.style.display = "block";
-      C.style.display = "block";
-      /* C.forEach((element) => {
-        element.style.display = "block";
-      }); */
-      
+      C.style.display = "block";      
       H.src =
-        "../manage-landing-page-master/manage-landing-page-master/images/icon-close.svg";
+        "./manage-landing-page-master/manage-landing-page-master/images/icon-close.svg";
       state = true;
     } else {
       M.style.display = "none";
       C.style.display = "none";
       H.src =
-        "../manage-landing-page-master/manage-landing-page-master/images/icon-hamburger.svg";
+        "./manage-landing-page-master/manage-landing-page-master/images/icon-hamburger.svg";
       state = false;
     }
   });
-
-  /*   L.addEventListener("click", () => {
-    M.style.display = "none";
-    C.style.display = "none";
-  }); */
 };
